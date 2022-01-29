@@ -1,0 +1,8 @@
+*.css
+*.svg
+*.jpeg
+*.jpg
+*.png
+/functions
+/src/service-worker.ts
+/src/setupTests.ts
