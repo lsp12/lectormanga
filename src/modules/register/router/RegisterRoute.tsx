@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
 import NotFound404 from '../../shared/errors/NotFound404';
-import Authentication from '../pages/Authentication';
+import { Register } from '../pages/Register';
 
-function AuthRouter() {
+function RegisterRouter() {
   return (
     <Routes>
-      <Route path="/login" element={<Authentication title="Login into your account" />} />
+      <Route path="/register" element={<Register title="Create your account" />} />
       <Route
         path="*"
         element={(
@@ -15,4 +15,4 @@ function AuthRouter() {
   );
 }
 
-export default AuthRouter;
+export default RegisterRouter;
